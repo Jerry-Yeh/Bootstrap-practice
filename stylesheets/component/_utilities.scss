@@ -1,0 +1,52 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Microsoft JhengHei","Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" ;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}
+
+.container.custom-container-width {
+    max-width:960px;
+}
+
+$custom-gutter-width: 20px;
+.custom-gutters {
+    &.container {
+        padding-left: $custom-gutter-width / 2;
+        padding-right: $custom-gutter-width / 2;
+    }
+    .row {
+        margin-left: -$custom-gutter-width / 2;
+        margin-right: -$custom-gutter-width / 2;        
+    }
+    // 所有包含 col- (ex:col-2、col-3) 的 className，如果沒有 * ，則只有 .col- 的 className 會有效果
+    .col,[class*="col-"] {
+        padding-left: $custom-gutter-width / 2;
+        padding-right: $custom-gutter-width / 2;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 22px 0;
+    @media (min-width: 768px) { 
+        padding: 25px 0;
+    }
+}
+
+
+
+
+
+

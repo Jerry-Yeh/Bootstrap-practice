@@ -1,0 +1,113 @@
+.step {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    &::after {
+        content:"";
+        position: absolute;
+        top:10px;
+        height:1px;
+        right:0;
+        left:0;
+        background: #3F5D45;
+    }
+}
+
+.step-point {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #EAF0ED;
+    border-radius: 50%;
+    position: relative;
+    background: #3F5D45;
+    z-index: 1;
+}
+
+.step-point-ready {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #EAF0ED;
+    border-radius: 50%;
+    position: relative;
+    background: #3F5D45;
+    z-index: 1;
+    &::before {
+        position: absolute;
+        top:2px;
+        left:2px;
+        content:"";
+        width: 14px;
+        height: 14px;
+        background: #EAF0ED;
+        border-radius: 50%;
+    }
+}
+
+.step-point-check {
+    width: 20px;
+    height: 20px;
+    background: #EAF0ED;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.step-point-success {
+    width: 20px;
+    height: 20px;
+    background: #3F5D45;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.step-line {
+    position: relative;
+    top:10px;
+    border-top: 1px solid #EAF0ED;
+    margin: 0 20px;
+}
+
+.step-line-success {
+    position: relative;
+    top:10px;
+    border-top: 1px solid #3F5D45;
+    margin: 0 20px;
+}
+
+.fa-check {
+    position: relative;
+    left:2px;
+    top:-2px;
+}
+
+.remove-arrow {
+    /*移除箭頭樣式*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+
+.fa-sort {
+    position: absolute;
+    right:30px;
+    top:20px;
+}
+
+.fa-credit-card {
+    position: absolute;
+    right:30px;
+    top:50px;
+}
+
+.receipt {
+    background: #EAF0ED;
+    color:#3F5D45;
+}
+
+.checkout-success-bg {
+    height:518px;
+    @media (min-width: 768px) { 
+        height: 460px;
+    }
+}

@@ -1,0 +1,40 @@
+.product-header {
+    height: 277px;
+    background-image: url(https://bit.ly/2Qodh3Z);
+    background-position: center right;
+    @media (min-width: 768px) { 
+        height:496px;
+    }
+}
+
+.product-header-tiitle {
+    width: 60px;
+    @media (min-width: 768px) { 
+        width: 90px;
+    }
+}
+
+.list-group-item-hover:hover {
+    background-color: #bdd0c7;
+    transition: all .5s;
+}
+
+.page-link {
+    width:60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3F5D45;
+    &:hover {
+        background-color: #3F5D45;
+        color:white;
+        text-decoration: none;
+    }
+    &:focus {
+        background: #3F5D45;
+        color: white;
+        box-shadow: 0 0 0 0 ;
+    }
+}
+
