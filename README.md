@@ -4,11 +4,11 @@
 
 ## Demo
 
-[https://jerry-yeh.github.io/bootstrap-practice/](Demo 連結)
+[Demo](https://jerry-yeh.github.io/bootstrap-practice/)
 
 ## 設計稿
 
-[https://xd.adobe.com/spec/934efdb7-a7e4-47d5-572e-efece0914f62-e57f/grid](設計稿連結)
+[設計稿連結](https://xd.adobe.com/spec/934efdb7-a7e4-47d5-572e-efece0914f62-e57f/grid)
 
 ## 使用技術 
 
