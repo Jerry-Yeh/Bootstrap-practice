@@ -4,7 +4,7 @@
 
 ## Demo
 
-[https://jerry-yeh.github.io/bootstrap-practice/](Demo 連結)
+[https://jerry-yeh.github.io/bootstrap-practice/](Demo連結)
 
 ## 設計稿
 
