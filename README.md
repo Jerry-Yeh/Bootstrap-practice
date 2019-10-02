@@ -14,3 +14,4 @@
 
 * Scss 
 * RWD
+* jQuery 
